@@ -13,7 +13,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="">
 
-  <title> Finexo </title>
+  <title> GNOV </title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -50,7 +50,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="{{ route('welcome') }}">
             <span>
-              Finexo
+              GNOV
             </span>
           </a>
 
@@ -99,8 +99,8 @@
                 <div class="col-md-6 ">
                   <div class="detail-box">
                     <h1>
-                      Crypto <br>
-                      Currency
+                      GNOV <br>
+                      <b>G</b>eneration of in<b>nov</b>ation
                     </h1>
                     <p>
                       Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
@@ -114,7 +114,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="">
+                    <img src="images/removbk_slide.png" alt="">
                   </div>
                 </div>
               </div>
@@ -126,22 +126,20 @@
                 <div class="col-md-6 ">
                   <div class="detail-box">
                     <h1>
-                      Crypto <br>
-                      Currency
+                      poubelle <br>
+                      intelligente
                     </h1>
+                    <h3>Automatic</h2>
                     <p>
-                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn1">
-                        Read More
-                      </a>
+                      
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="">
+                  <img src="images/rmvbk_poubelle.png" alt="" style="width: 70%; margin-left: 9vw;">
                   </div>
                 </div>
               </div>
@@ -153,22 +151,19 @@
                 <div class="col-md-6 ">
                   <div class="detail-box">
                     <h1>
-                      Crypto <br>
-                      Currency
+                      Green Environment <br>
                     </h1>
+                    <h3>With Less Effort</h2>
                     <p>
-                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn1">
-                        Read More
-                      </a>
+                      
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="">
+                    <img src="images/Green-Environment.png" alt="" style="width: 50%; margin-left: 11vw;">
                   </div>
                 </div>
               </div>

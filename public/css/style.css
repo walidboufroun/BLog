@@ -127,7 +127,7 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background: linear-gradient(130deg, #231a6f, #0f054c);
+  background: linear-gradient(130deg, #266264, #195759);
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -483,7 +483,7 @@ a:focus {
 }
 
 .about_section {
-  background-color: #00204a;
+  background-color: #266264;
   color: #ffffff;
 }
 
@@ -775,7 +775,7 @@ a:focus {
 
 /* client section end */
 .info_section {
-  background-color: #00204a;
+  background-color: #266264;
   color: #ffffff;
   padding: 45px 0 15px 0;
 }
