@@ -13,7 +13,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="">
 
-  <title> Finexo </title>
+  <title> GNOV </title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -50,7 +50,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="{{ route('welcome') }}">
             <span>
-              Finexo
+              GNOV
             </span>
           </a>
 
@@ -61,20 +61,24 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
               <li class="nav-item active">
-                <a class="nav-link" href="{{ route('welcome') }}">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="{{ route('welcome') }}">Acceuil <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('about') }}"> About</a>
+                <a class="nav-link" href="{{ route('about') }}"> Qui Somme Nous</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('service') }}">Services</a>
+                <a class="nav-link" href="{{ route('service') }}">Nos Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('why') }}">Why Us</a>
+                <a class="nav-link" href="{{ route('service') }}">Nos Produits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ route('why') }}">Pouquoi Nous </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{ route('team') }}">Team</a>
               </li>
+              <!--
               <li class="nav-item">
                 <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
               </li>
@@ -83,6 +87,7 @@
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
               </form>
+              -->
             </ul>
           </div>
         </nav>
@@ -194,7 +199,7 @@
       <div class="container ">
         <div class="heading_container heading_center">
           <h2>
-            Our <span>Services</span>
+            Nos <span>Services</span> Dans La Gestion Des Déchets
           </h2>
           <p>
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
@@ -208,7 +213,7 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Currency Wallet
+                  GBIN Poubelle
                 </h5>
                 <p>
                   fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -228,7 +233,7 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Security Storage
+                  GBIN SMALL
                 </h5>
                 <p>
                   fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -248,7 +253,7 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Expert Support
+                  KIT BIN
                 </h5>
                 <p>
                   fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -546,7 +551,7 @@
     <div class="container">
       <div class="heading_container heading_center psudo_white_primary mb_45">
         <h2>
-          What says our <span>Customers</span>
+          La <span>Responsabilite </span> de <span>GNOV </span> vers l'envirenement 
         </h2>
       </div>
       <div class="carousel-wrap ">
