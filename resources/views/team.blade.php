@@ -109,7 +109,7 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Joseph Brown
+                  Boufroune Walid
                 </h5>
                 <p>
                   Marketing Head
@@ -137,11 +137,11 @@
           <div class="col-lg-3 col-sm-6">
             <div class="box ">
               <div class="img-box">
-                <img src="images/team-2.jpg" class="img1" alt="">
+                <img src="images/team2.jpg" class="img1" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Nancy White
+                  Boulsane Zakaria
                 </h5>
                 <p>
                   Marketing Head
@@ -169,11 +169,11 @@
           <div class="col-lg-3 col-sm-6">
             <div class="box ">
               <div class="img-box">
-                <img src="images/team-3.jpg" class="img1" alt="">
+                <img src="images/team3.jpg" class="img1" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Earl Martinez
+                  Diguer Imane
                 </h5>
                 <p>
                   Marketing Head
@@ -201,11 +201,11 @@
           <div class="col-lg-3 col-sm-6">
             <div class="box ">
               <div class="img-box">
-                <img src="images/team-4.jpg" class="img1" alt="">
+                <img src="images/team4.png" class="img1" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Josephine Allard
+                  Zeggane Celia
                 </h5>
                 <p>
                   Marketing Head

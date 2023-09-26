@@ -97,11 +97,11 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Why Choose <span>Us</span>
+          Why Choose <span>Our</span> Waste Management Solution 
         </h2>
       </div>
       <div class="why_container">
-        <div class="box">
+        <!-- <div class="box">
           <div class="img-box">
             <img src="images/w1.png" alt="">
           </div>
@@ -114,18 +114,18 @@
               Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
             </p>
           </div>
-        </div>
+        </div> -->
         <div class="box">
           <div class="img-box">
             <img src="images/w2.png" alt="">
           </div>
           <div class="detail-box">
             <h5>
-              Secure Investment
+              Sécurité de l'Investissement
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            La gestion des déchets est un investissement important pour la durabilité de l'environnement et la santé publique. 
+            Notre approche assure la sécurité de votre investissement en maximisant l'efficacité de la collecte, du tri et de la valorisation des déchets. Vous pouvez être assuré que votre contribution fait une réelle différence.
             </p>
           </div>
         </div>
@@ -135,11 +135,12 @@
           </div>
           <div class="detail-box">
             <h5>
-              Instant Trading
+              Technologie de Gestion Instantanée
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            Nous utilisons des technologies de pointe pour assurer une gestion instantanée des déchets. 
+            Notre système de collecte de données en temps réel, associé à des capteurs connectés, permet une gestion efficace. 
+            Cela signifie que vous pouvez prendre des décisions éclairées sur la base de données précises.
             </p>
           </div>
         </div>
@@ -149,20 +150,21 @@
           </div>
           <div class="detail-box">
             <h5>
-              Happy Customers
+              Satisfaction des Clients
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            La satisfaction de nos clients est notre priorité absolue. 
+            Nous travaillons en étroite collaboration avec des particuliers, des entreprises, des collectivités locales et d'autres parties prenantes pour répondre à leurs besoins spécifiques en matière de gestion des déchets. 
+            Notre objectif est de garantir que nos clients sont satisfaits de nos services.
             </p>
           </div>
         </div>
       </div>
-      <div class="btn-box">
+      <!-- <div class="btn-box">
         <a href="">
           Read More
         </a>
-      </div>
+      </div> -->
     </div>
   </section>
 

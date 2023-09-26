@@ -40,7 +40,7 @@
 
     <div class="hero_bg_box">
       <div class="bg_img_box">
-        <img src="images/hero-bg.png" alt="">
+        <img src="images/hero_bg.png" alt="">
       </div>
     </div>
 
@@ -108,8 +108,7 @@
                       <b>G</b>eneration of in<b>nov</b>ation
                     </h1>
                     <p>
-                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
-                    </p>
+                        GNOV (Generation d'Innovation) Our startup is dedicated to revolutionizing waste management using AI and IoT, creating a greener and cleaner future.                    </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Read More
@@ -197,82 +196,174 @@
             Nos <span>Services</span> Dans La Gestion Des Déchets
           </h2>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+            Nombreux services sont disponibles dans notre gestion de déchets, mais la majorité sont :
           </p>
         </div>
-        <div class="row">
+        <div class="row d-flex justify-content-center">
           <div class="col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/s1.png" alt="">
+                <img src="images/serv1.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  GBIN Poubelle
+                  Automatisation
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  Nos poubelles intelligentes ont la capacité de trier, compacter automatiquement les déchets et de collecter les données en temps. Ce niveau d'automatisation peut améliorer considérablement l'efficience et l'efficacité des pratiques de gestion des déchets.
                 </p>
-                <a href="">
+                <!-- <a href="">
                   Read More
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
           <div class="col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/s2.png" alt="">
+                <img src="images/serv2.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  GBIN SMALL
+                  Numérisation
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  La numérisation fait référence au processus de collecte, de stockage et d’analyse des données liées à la gestion des déchets dans un format numérique
                 </p>
-                <a href="">
+                <!-- <a href="">
                   Read More
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
           <div class="col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/s3.png" alt="">
+                <img src="images/serv3.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  KIT BIN
+                  Valorisation
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  Notre objectif est de réduire l'impact environnemental de l'élimination des déchets, de conserver les ressources et potentiellement de générer des revenus ou des économies en transformant les déchets en ressources ou produits de valeur.
                 </p>
-                <a href="">
+                <!-- <a href="">
                   Read More
-                </a>
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/serv3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Valorisation
+                </h5>
+                <p>
+                  Notre objectif est de réduire l'impact environnemental de l'élimination des déchets, de conserver les ressources et potentiellement de générer des revenus ou des économies en transformant les déchets en ressources ou produits de valeur.
+                </p>
+                <!-- <a href="">
+                  Read More
+                </a> -->
               </div>
             </div>
           </div>
         </div>
-        <div class="btn-box">
+        <!-- <div class="btn-box">
           <a href="">
             View All
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
 
   <!-- end service section -->
+  <!-- product section -->
 
+  <section class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Nos <span>Produits</span> Dans La Gestion Des Déchets
+          </h2>
+          <p>
+            Les produits disponibles dans notre Startup :
+          </p>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/prod.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  G-BIN
+                </h5>
+                <p>
+                  Une poubelle intelligente qui fait le tri séletif automatiquement avec numérisation des données 
+                  contient 5 bacs internes (Plastique, Metal, Papier, Verre, Autres)
+                </p>
+                <!-- <a href="">
+                  Read More
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/prod.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  S-BIN
+                </h5>
+                <p>
+                  Une poubelle intelligente qui fait le tri séletif automatiquement avec numérisation des données 
+                  contient 3 bacs internes (Plastique, Papier, Autres)
+                </p>
+                <!-- <a href="">
+                  Read More
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/prod.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  KIT-BIN
+                </h5>
+                <p>
+
+                </p>
+                <!-- <a href="">
+                  Read More
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="btn-box">
+          <a href="">
+            View All
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- end product section -->
 
   <!-- about section -->
 
@@ -280,35 +371,31 @@
     <div class="container  ">
       <div class="heading_container heading_center">
         <h2>
-          About <span>Us</span>
+          Qui somme <span> nous</span> ?
         </h2>
-        <p>
-          Magni quod blanditiis non minus sed aut voluptatum illum quisquam aspernatur ullam vel beatae rerum ipsum voluptatibus
-        </p>
       </div>
       <div class="row">
         <div class="col-md-6 ">
           <div class="img-box">
-            <img src="images/about-img.png" alt="">
+            <img src="images/aboutus.png" alt="" width="75%">
           </div>
         </div>
         <div class="col-md-6">
           <div class="detail-box">
             <h3>
-              We Are Finexo
+              Nous Somme GNOV 
             </h3>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
+              (Generation of Innovation) <hr>
+              Une Start-Up passionnée par l'innovation dans le domaine de la gestion des déchets.
+              Notre mission est de révolutionner la façon dont les déchets sont gérés en Algérie et au-delà. 
+              Nous croyons fermement que la technologie peut jouer un rôle essentiel dans la préservation de notre environnement 
+              tout en créant des opportunités économiques.
             </p>
-            <p>
-              Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab omnis quasi expedita.
-            </p>
-            <a href="">
+            
+            <!-- <a href="">
               Read More
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -323,11 +410,11 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Why Choose <span>Us</span>
+          Why Choose <span>Our</span> Waste Management Solution 
         </h2>
       </div>
       <div class="why_container">
-        <div class="box">
+        <!-- <div class="box">
           <div class="img-box">
             <img src="images/w1.png" alt="">
           </div>
@@ -340,18 +427,18 @@
               Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
             </p>
           </div>
-        </div>
+        </div> -->
         <div class="box">
           <div class="img-box">
             <img src="images/w2.png" alt="">
           </div>
           <div class="detail-box">
             <h5>
-              Secure Investment
+              Sécurité de l'Investissement
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            La gestion des déchets est un investissement important pour la durabilité de l'environnement et la santé publique. 
+            Notre approche assure la sécurité de votre investissement en maximisant l'efficacité de la collecte, du tri et de la valorisation des déchets. Vous pouvez être assuré que votre contribution fait une réelle différence.
             </p>
           </div>
         </div>
@@ -361,11 +448,12 @@
           </div>
           <div class="detail-box">
             <h5>
-              Instant Trading
+              Technologie de Gestion Instantanée
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            Nous utilisons des technologies de pointe pour assurer une gestion instantanée des déchets. 
+            Notre système de collecte de données en temps réel, associé à des capteurs connectés, permet une gestion efficace. 
+            Cela signifie que vous pouvez prendre des décisions éclairées sur la base de données précises.
             </p>
           </div>
         </div>
@@ -375,20 +463,21 @@
           </div>
           <div class="detail-box">
             <h5>
-              Happy Customers
+              Satisfaction des Clients
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            La satisfaction de nos clients est notre priorité absolue. 
+            Nous travaillons en étroite collaboration avec des particuliers, des entreprises, des collectivités locales et d'autres parties prenantes pour répondre à leurs besoins spécifiques en matière de gestion des déchets. 
+            Notre objectif est de garantir que nos clients sont satisfaits de nos services.
             </p>
           </div>
         </div>
       </div>
-      <div class="btn-box">
+      <!-- <div class="btn-box">
         <a href="">
           Read More
         </a>
-      </div>
+      </div> -->
     </div>
   </section>
 
@@ -412,7 +501,7 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Joseph Brown
+                  Boufroune Walid
                 </h5>
                 <p>
                   Marketing Head
@@ -440,11 +529,11 @@
           <div class="col-lg-3 col-sm-6">
             <div class="box ">
               <div class="img-box">
-                <img src="images/team-2.jpg" class="img1" alt="">
+                <img src="images/team2.jpg" class="img1" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Nancy White
+                  Boulsane Zakaria
                 </h5>
                 <p>
                   Marketing Head
@@ -472,11 +561,11 @@
           <div class="col-lg-3 col-sm-6">
             <div class="box ">
               <div class="img-box">
-                <img src="images/team-3.jpg" class="img1" alt="">
+                <img src="images/team3.jpg" class="img1" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Earl Martinez
+                  Diguer Imane
                 </h5>
                 <p>
                   Marketing Head
@@ -504,11 +593,11 @@
           <div class="col-lg-3 col-sm-6">
             <div class="box ">
               <div class="img-box">
-                <img src="images/team-4.jpg" class="img1" alt="">
+                <img src="images/team4.png" class="img1" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Josephine Allard
+                  Zeggane Celia
                 </h5>
                 <p>
                   Marketing Head
@@ -560,7 +649,7 @@
                 <div class="client_id">
                   <div class="client_info">
                     <h6>
-                      LusDen
+                      Boufroune Walid
                     </h6>
                     <p>
                       magna aliqua. Ut
@@ -576,13 +665,13 @@
           <div class="item">
             <div class="box">
               <div class="img-box">
-                <img src="images/client2.jpg" alt="" class="box-img">
+                <img src="images/team3.jpg" alt="" class="box-img">
               </div>
               <div class="detail-box">
                 <div class="client_id">
                   <div class="client_info">
                     <h6>
-                      Zen Court
+                      Diguer Imane
                     </h6>
                     <p>
                       magna aliqua. Ut
@@ -598,13 +687,13 @@
           <div class="item">
             <div class="box">
               <div class="img-box">
-                <img src="images/client1.jpg" alt="" class="box-img">
+                <img src="images/team2.jpg" alt="" class="box-img">
               </div>
               <div class="detail-box">
                 <div class="client_id">
                   <div class="client_info">
                     <h6>
-                      LusDen
+                      Boulsane Zakaria
                     </h6>
                     <p>
                       magna aliqua. Ut
@@ -620,13 +709,13 @@
           <div class="item">
             <div class="box">
               <div class="img-box">
-                <img src="images/client2.jpg" alt="" class="box-img">
+                <img src="images/team4.png" alt="" class="box-img">
               </div>
               <div class="detail-box">
                 <div class="client_id">
                   <div class="client_info">
                     <h6>
-                      Zen Court
+                      Zeggane Celia
                     </h6>
                     <p>
                       magna aliqua. Ut
@@ -667,13 +756,13 @@
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
-                  Call +01 1234567890
+                  +213 558629858
                 </span>
               </a>
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  demo@gmail.com
+                  gnov2023@gmail.com
                 </span>
               </a>
             </div>
@@ -749,7 +838,7 @@
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        <a href="https://html.design/">GNOV</a>
       </p>
     </div>
   </section>

@@ -99,79 +99,91 @@
       <div class="container ">
         <div class="heading_container heading_center">
           <h2>
-            Our <span>Services</span>
+            Nos <span>Services</span> Dans La Gestion Des Déchets
           </h2>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+            Nombreux services sont disponibles dans notre gestion de déchets, mais la majorité sont :
           </p>
         </div>
-        <div class="row">
+        <div class="row d-flex justify-content-center">
           <div class="col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/s1.png" alt="">
+                <img src="images/serv1.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Currency Wallet
+                  Automatisation
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  Nos poubelles intelligentes ont la capacité de trier, compacter automatiquement les déchets et de collecter les données en temps. Ce niveau d'automatisation peut améliorer considérablement l'efficience et l'efficacité des pratiques de gestion des déchets.
                 </p>
-                <a href="">
+                <!-- <a href="">
                   Read More
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
           <div class="col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/s2.png" alt="">
+                <img src="images/serv2.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Security Storage
+                  Numérisation
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  La numérisation fait référence au processus de collecte, de stockage et d’analyse des données liées à la gestion des déchets dans un format numérique
                 </p>
-                <a href="">
+                <!-- <a href="">
                   Read More
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
           <div class="col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/s3.png" alt="">
+                <img src="images/serv3.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Expert Support
+                  Valorisation
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  Notre objectif est de réduire l'impact environnemental de l'élimination des déchets, de conserver les ressources et potentiellement de générer des revenus ou des économies en transformant les déchets en ressources ou produits de valeur.
                 </p>
-                <a href="">
+                <!-- <a href="">
                   Read More
-                </a>
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/serv3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Valorisation
+                </h5>
+                <p>
+                  Notre objectif est de réduire l'impact environnemental de l'élimination des déchets, de conserver les ressources et potentiellement de générer des revenus ou des économies en transformant les déchets en ressources ou produits de valeur.
+                </p>
+                <!-- <a href="">
+                  Read More
+                </a> -->
               </div>
             </div>
           </div>
         </div>
-        <div class="btn-box">
+        <!-- <div class="btn-box">
           <a href="">
             View All
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
