@@ -13,7 +13,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="">
 
-  <title> Finexo </title>
+  <title> GNOV </title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -46,11 +46,35 @@
 
     <!-- header section strats -->
     <header class="header_section">
+    <div class="header_top">
+        <div class="container-fluid-top ">
+          <div class="contact_nav">
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call : +213 558629858
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                Email : gnov2023@gmail.com
+              </span>
+            </a>
+            <!-- <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Location
+              </span>
+            </a> -->
+          </div>
+        </div>
+      </div>
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="{{ route('welcome') }}">
             <span>
-              Finexo
+              <img src="images/gnov3.png" alt="" style="width: 30%;">
             </span>
           </a>
 
@@ -60,21 +84,32 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
-              <li class="nav-item ">
-                <a class="nav-link" href="{{ route('welcome') }}">Home </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{ route('about') }}"> About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{ route('service') }}">Services</a>
-              </li>
               <li class="nav-item active">
-                <a class="nav-link" href="{{ route('why') }}">Why Us <span class="sr-only">(current)</span> </a>
+                <a class="nav-link" href="{{ route('welcome') }}">Acceuil <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('team') }}">Team</a>
+                <a class="nav-link" href="{{ route('about') }}"> Qui Somme Nous</a>
               </li>
+              <div class="subnav">
+                <li class="nav-item">
+                  <button class="nav-link subnavbtn">Notre Service</a>
+                </li>
+                <div class="subnav-content">
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ route('service') }}">Nos Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ route('Product') }}">Nos Solutions</a>
+                  </li>
+                </div>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ route('why') }}">Pouquoi Nous</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ route('contact') }}">Contactez Nous</a>
+              </li>
+              <!--
               <li class="nav-item">
                 <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
               </li>
@@ -83,6 +118,7 @@
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
               </form>
+              -->
             </ul>
           </div>
         </nav>
@@ -97,7 +133,7 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Why Choose <span>Our</span> Waste Management Solution 
+          Pourquoi Choisir <span>Notre</span> Solution De Gestion Des Déchets
         </h2>
       </div>
       <div class="why_container">
