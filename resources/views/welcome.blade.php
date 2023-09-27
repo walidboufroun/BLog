@@ -43,14 +43,37 @@
         <img src="images/hero_bg.png" alt="">
       </div>
     </div>
-
     <!-- header section strats -->
     <header class="header_section">
+    <div class="header_top">
+        <div class="container-fluid-top ">
+          <div class="contact_nav">
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call : +213 558629858
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                Email : gnov2023@gmail.com
+              </span>
+            </a>
+            <!-- <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Location
+              </span>
+            </a> -->
+          </div>
+        </div>
+      </div>
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="{{ route('welcome') }}">
             <span>
-              GNOV
+              <img src="images/gnov3.png" alt="" style="width: 30%;">
             </span>
           </a>
 
@@ -66,17 +89,24 @@
               <li class="nav-item">
                 <a class="nav-link" href="{{ route('about') }}"> Qui Somme Nous</a>
               </li>
+              <div class="subnav">
+                <li class="nav-item">
+                  <button class="nav-link subnavbtn">Notre Service</a>
+                </li>
+                <div class="subnav-content">
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ route('service') }}">Nos Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ route('Product') }}">Nos Solutions</a>
+                  </li>
+                </div>
+              </div>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('service') }}">Nos Services</a>
+                <a class="nav-link" href="{{ route('why') }}">Pouquoi Nous</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('service') }}">Nos Produits</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{ route('why') }}">Pouquoi Nous </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{ route('team') }}">Team</a>
+                <a class="nav-link" href="{{ route('contact') }}">Contactez Nous</a>
               </li>
               <!--
               <li class="nav-item">
@@ -118,7 +148,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/removbk_slide.png" alt="">
+                    <img src="images/gnov3.png" alt="">
                   </div>
                 </div>
               </div>
@@ -133,7 +163,7 @@
                       poubelle <br>
                       intelligente
                     </h1>
-                    <h3>Automatic</h2>
+                    <h3>Automatique Et Sans Effort</h2>
                     <p>
                     </p>
                     <div class="btn-box">
@@ -149,7 +179,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <!-- <div class="carousel-item">
             <div class="container ">
               <div class="row">
                 <div class="col-md-6 ">
@@ -172,12 +202,12 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
         <ol class="carousel-indicators">
           <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
           <li data-target="#customCarousel1" data-slide-to="1"></li>
-          <li data-target="#customCarousel1" data-slide-to="2"></li>
+          <!-- <li data-target="#customCarousel1" data-slide-to="2"></li> -->
         </ol>
       </div>
 
@@ -239,45 +269,26 @@
           <div class="col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/serv3.png" alt="">
+                <img src="images/serv4.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Valorisation
+                  Green Environment
                 </h5>
                 <p>
-                  Notre objectif est de réduire l'impact environnemental de l'élimination des déchets, de conserver les ressources et potentiellement de générer des revenus ou des économies en transformant les déchets en ressources ou produits de valeur.
-                </p>
+                  En réduisant la pollution environnementale et en favorisant une utilisation plus efficace des ressources, nous travaillons ensemble pour créer un avenir plus durable et plus propre.                </p>
                 <!-- <a href="">
                   Read More
                 </a> -->
               </div>
             </div>
           </div>
-          <div class="col-md-4 ">
-            <div class="box ">
-              <div class="img-box">
-                <img src="images/serv3.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Valorisation
-                </h5>
-                <p>
-                  Notre objectif est de réduire l'impact environnemental de l'élimination des déchets, de conserver les ressources et potentiellement de générer des revenus ou des économies en transformant les déchets en ressources ou produits de valeur.
-                </p>
-                <!-- <a href="">
-                  Read More
-                </a> -->
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="btn-box">
-          <a href="">
-            View All
+          
+        <div class="btn-box">
+          <a href="{{ route('service') }}">
+            voir plus
           </a>
-        </div> -->
+        </div>
       </div>
     </div>
   </section>
@@ -377,7 +388,7 @@
       <div class="row">
         <div class="col-md-6 ">
           <div class="img-box">
-            <img src="images/aboutus.png" alt="" width="75%">
+            <img src="images/gnovlogo.png" alt="" width="75%">
           </div>
         </div>
         <div class="col-md-6">
@@ -410,24 +421,24 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Why Choose <span>Our</span> Waste Management Solution 
+          Pourquoi Choisir <span>Notre</span> Solution De Gestion Des Déchets
         </h2>
       </div>
       <div class="why_container">
-        <!-- <div class="box">
+        <div class="box">
           <div class="img-box">
             <img src="images/w1.png" alt="">
           </div>
           <div class="detail-box">
             <h5>
-              Expert Management
+              Essentielles
             </h5>
             <p>
-              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+             Notre système utilise une technologie de pointe pour recueillir des données en temps réel à partir de capteurs connectés, 
+             fournissant des informations cruciales sur les niveaux et les types de déchets, entre autres. Ces informations permettent de prendre des décisions éclairées et d'optimiser les processus de collecte et de tri des déchets, contribuant ainsi à un environnement plus propre et plus durable.
             </p>
           </div>
-        </div> -->
+        </div>
         <div class="box">
           <div class="img-box">
             <img src="images/w2.png" alt="">
@@ -488,7 +499,7 @@
     <div class="container-fluid">
       <div class="heading_container heading_center">
         <h2 class="">
-          Our <span> Team</span>
+          Notre <span> Team</span>
         </h2>
       </div>
 
@@ -497,7 +508,7 @@
           <div class="col-lg-3 col-sm-6">
             <div class="box ">
               <div class="img-box">
-                <img src="images/team-1.jpg" class="img1" alt="">
+                <img src="images/team1.png" class="img1" alt="">
               </div>
               <div class="detail-box">
                 <h5>
@@ -643,7 +654,7 @@
           <div class="item">
             <div class="box">
               <div class="img-box">
-                <img src="images/client1.jpg" alt="" class="box-img">
+                <img src="images/team1.png" alt="" class="box-img">
               </div>
               <div class="detail-box">
                 <div class="client_id">
@@ -747,12 +758,12 @@
               Address
             </h4>
             <div class="contact_link_box">
-              <a href="">
+              <!-- <a href="">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <span>
                   Location
                 </span>
-              </a>
+              </a> -->
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
@@ -768,16 +779,19 @@
             </div>
           </div>
           <div class="info_social">
-            <a href="">
+            <a href="https://www.facebook.com/gnovstar">
               <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
-            <a href="">
+            <!-- <a href="">
               <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="">
+            </a> -->
+            <a href="https://www.linkedin.com/company/gnov">
               <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="">
+            <a href="https://www.youtube.com/@GNOV-uc9fb">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+            <a href="https://www.instagram.com/gnovstartup/">
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </div>
@@ -785,11 +799,10 @@
         <div class="col-md-6 col-lg-3 info_col">
           <div class="info_detail">
             <h4>
-              Info
+              Vision
             </h4>
             <p>
-              necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
-            </p>
+              Notre vision est de vous offrir une solution pratique qui simplifie la gestion de vos déchets tout en stimulant votre entreprise.             </p>
           </div>
         </div>
         <div class="col-md-6 col-lg-2 mx-auto info_col">
@@ -798,33 +811,35 @@
               Links
             </h4>
             <div class="info_links">
-              <a class="active" href="index.html">
-                Home
+              <a class="active" href="{{ route('welcome') }}">
+                Acceuil
               </a>
-              <a class="" href="about.html">
-                About
+              <a class="" href="{{ route('about') }}">
+                Qui somme nous
               </a>
-              <a class="" href="service.html">
-                Services
+              <a class="" href="{{ route('service') }}">
+                Nos Services
               </a>
-              <a class="" href="why.html">
-                Why Us
+              <a class="" href="{{ route('Product') }}">
+                Nos Produits
               </a>
-              <a class="" href="team.html">
-                Team
+              <a class="" href="{{ route('why') }}">
+                Pourquoi nous
+              </a>
+              <a class="" href="{{ route('team') }}">
+                Notre Team
               </a>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 info_col ">
           <h4>
-            Subscribe
+            Contactez Nous
           </h4>
           <form action="#">
-            <input type="text" placeholder="Enter email" />
-            <button type="submit">
-              Subscribe
-            </button>
+            <a class="contact" href="">
+                Contactez Nous
+            </a>
           </form>
         </div>
       </div>

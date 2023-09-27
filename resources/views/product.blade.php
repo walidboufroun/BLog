@@ -127,150 +127,88 @@
     <!-- end header section -->
   </div>
 
-  <!-- team section -->
-  <section class="team_section layout_padding">
-    <div class="container-fluid">
-      <div class="heading_container heading_center">
-        <h2 class="">
-          Notre <span> Team</span>
-        </h2>
-      </div>
 
-      <div class="team_container">
-        <div class="row">
-          <div class="col-lg-3 col-sm-6">
+<!-- product section -->
+
+<section class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Nos <span>Produits</span> Dans La Gestion Des Déchets
+          </h2>
+          <p>
+            Les produits disponibles dans notre Startup :
+          </p>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/team1.png" class="img1" alt="">
+                <img src="images/prod.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Boufroune Walid
+                  G-BIN
                 </h5>
                 <p>
-                  Marketing Head
+                  Une poubelle intelligente qui fait le tri séletif automatiquement avec numérisation des données 
+                  contient 5 bacs internes (Plastique, Metal, Papier, Verre, Autres)
                 </p>
-              </div>
-              <div class="social_box">
-                <a href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                </a>
+                <!-- <a href="">
+                  Read More
+                </a> -->
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/team2.jpg" class="img1" alt="">
+                <img src="images/prod.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Boulsane Zakaria
+                  S-BIN
                 </h5>
                 <p>
-                  Marketing Head
+                  Une poubelle intelligente qui fait le tri séletif automatiquement avec numérisation des données 
+                  contient 3 bacs internes (Plastique, Papier, Autres)
                 </p>
-              </div>
-              <div class="social_box">
-                <a href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                </a>
+                <!-- <a href="">
+                  Read More
+                </a> -->
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-md-4 ">
             <div class="box ">
               <div class="img-box">
-                <img src="images/team3.jpg" class="img1" alt="">
+                <img src="images/prod.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Diguer Imane
+                  KIT-BIN
                 </h5>
                 <p>
-                  Marketing Head
+
                 </p>
-              </div>
-              <div class="social_box">
-                <a href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="box ">
-              <div class="img-box">
-                <img src="images/team4.png" class="img1" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Zeggane Celia
-                </h5>
-                <p>
-                  Marketing Head
-                </p>
-              </div>
-              <div class="social_box">
-                <a href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                </a>
+                <!-- <a href="">
+                  Read More
+                </a> -->
               </div>
             </div>
           </div>
         </div>
+        <!-- <div class="btn-box">
+          <a href="">
+            View All
+          </a>
+        </div> -->
       </div>
     </div>
   </section>
-  <!-- end team section -->
+
+  <!-- end product section -->
 
   <!-- info section -->
 
