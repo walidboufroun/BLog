@@ -40,7 +40,7 @@
 
     <div class="hero_bg_box">
       <div class="bg_img_box">
-        <img src="images/hero_bg.png" alt="">
+        <!-- <img src="images/hero_bg.png" alt=""> -->
       </div>
     </div>
     <!-- header section strats -->
@@ -73,7 +73,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="{{ route('welcome') }}">
             <span>
-              <img src="images/gnov3.png" alt="" style="width: 30%;">
+              <img src="images/gnov1.png" alt="" style="width: 30%;">
             </span>
           </a>
 
@@ -124,6 +124,7 @@
       </div>
     </header>
     <!-- end header section -->
+
     <!-- slider section -->
     <section class="slider_section ">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
@@ -138,7 +139,7 @@
                       <b>G</b>eneration of in<b>nov</b>ation
                     </h1>
                     <p>
-                        GNOV (Generation d'Innovation) Our startup is dedicated to revolutionizing waste management using AI and IoT, creating a greener and cleaner future.                    </p>
+                      Our Startup Is Dedicated To Revolutionizing Waste Management Using AI And IoT, Creating A Greener And Cleaner Future.                    </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Read More
@@ -148,7 +149,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/gnov3.png" alt="">
+                    <img src="images/gnov1.png" alt="" style=" width: 120%; margin: 0px 2vw 5.4vw 0;">
                   </div>
                 </div>
               </div>
@@ -163,7 +164,7 @@
                       poubelle <br>
                       intelligente
                     </h1>
-                    <h3>Automatique Et Sans Effort</h2>
+                    <h3 style="font-size: 1.10rem;">Automatique Et Sans Effort</h2>
                     <p>
                     </p>
                     <div class="btn-box">
@@ -173,7 +174,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                  <img src="images/rmvbk_poubelle.png" alt="" style="width: 70%; margin-left: 9vw;">
+                  <img src="images/removedbk_poubelle.png" alt="" style="width: 90%; margin-left: 2vw;">
                   </div>
                 </div>
               </div>
@@ -215,6 +216,9 @@
     <!-- end slider section -->
   </div>
 
+  <div>
+    <img src="images/sepa2.png" alt="" style="width: 100%;">
+  </div>
 
   <!-- service section -->
 
@@ -375,7 +379,9 @@
   </section>
 
   <!-- end product section -->
-
+  <div>
+    <img src="images/sepa.png" alt="" style="width: 100%;">
+  </div>
   <!-- about section -->
 
   <section class="about_section layout_padding">
@@ -414,7 +420,9 @@
   </section>
 
   <!-- end about section -->
-
+  <div>
+    <img src="images/sepa1.png" alt="" style="width: 100%;">
+  </div>
   <!-- why section -->
 
   <section class="why_section layout_padding">
