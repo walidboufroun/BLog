@@ -44,14 +44,14 @@ body {
 }
 
 .heading_container h2 {
-  color: #00204a;
+  color: #024731;
   position: relative;
   font-weight: bold;
   margin-bottom: 0;
 }
 
 .heading_container h2 span {
-  color: #00bbf0;
+  color: #1c8200 ;
 }
 
 .heading_container p {
@@ -79,7 +79,7 @@ a:focus {
 
 .btn,
 .btn:focus {
-  outline: none !important;
+  outline: none ;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -128,7 +128,6 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background: linear-gradient(130deg, #266264, #195759);
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -160,16 +159,16 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
-  color: #0b576b;
+  font-weight: 700;
+  color: #024731;
   text-align: center;
-  text-transform: uppercase;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #00bbf0;
+  color: #1c8200;
 }
 
 .custom_nav-container .navbar-nav .nav-item.active .nav-link {
@@ -185,7 +184,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #00bbf0;
+  color: #1c8200;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -274,7 +273,7 @@ a:focus {
 }
 
 .slider_section .detail-box {
-  color: #00204a;
+  color: black;
 }
 
 .slider_section .detail-box h1 {
@@ -282,11 +281,11 @@ a:focus {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: #0b576b;
+  color: #024731;
 }
 
 .slider_section .detail-box p {
-  color: #00204a;
+  color: black;
   font-size: 0.9rem;
 }
 
@@ -307,7 +306,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #00bbf0;
+  background-color: rgb(0, 105, 55);
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -316,7 +315,7 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
-  background-color: #007fa4;
+  background-color: #1c8200;
 }
 
 .slider_section .detail-box .btn-box .btn2 {
@@ -386,7 +385,7 @@ a:focus {
 }
 
 .slider_section .carousel-indicators li {
-  background-color: #0b576b;
+  background-color: #024731;
   width: 12px;
   height: 12px;
   border-radius: 100%;
@@ -396,7 +395,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #00bbf0;
+  background-color: #1c8200 ;
 }
 
 .service_section {
@@ -456,7 +455,7 @@ a:focus {
 }
 
 .service_section .box .detail-box a:hover {
-  color: #00bbf0;
+  color: #1c8200 ;
 }
 
 .service_section .btn-box {
@@ -472,7 +471,7 @@ a:focus {
 .service_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #00bbf0;
+  background-color: rgb(0, 105, 55);
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -481,11 +480,11 @@ a:focus {
 }
 
 .service_section .btn-box a:hover {
-  background-color: #007fa4;
+  background-color: #1c8200;
 }
 
 .about_section {
-  padding: 6vw 0 3vw 0;
+  padding: 6vw 0 8vw 0;
 }
 
 .about_section .heading_container {
@@ -504,10 +503,7 @@ a:focus {
 
 .about_section .detail-box h3 {
   font-weight: bold;
-  color: #0b576b;
-}
-.about_section h2 {
-  color: #0b576b;
+  color: #024731;
 }
 
 .about_section .detail-box p {
@@ -517,7 +513,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #00bbf0;
+  background-color: rgb(0 144 0);
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all 0.3s;
@@ -592,7 +588,7 @@ a:focus {
 .why_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #00bbf0;
+  background-color: rgb(0 144 0) ;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -607,8 +603,6 @@ a:focus {
 /*team section */
 .team_section {
   text-align: center;
-  background-color: #266264;
-  ;
   color: #006465;
 }
 
@@ -661,7 +655,7 @@ a:focus {
   position: relative;
 }
 .team_section .team_container .box .detail-box p {
-  color: #00bbf0;
+  color: rgb(0 144 0);
   font-weight: 600;
   position: relative;
 }
@@ -681,7 +675,7 @@ a:focus {
 }
 
 .team_section .team_container .box .social_box a:hover {
-  color: #00bbf0;
+  color:rgb(0 144 0)
 }
 
 /*team section end*/
@@ -819,7 +813,7 @@ a:focus {
 }
 
 .info_section .info_contact .contact_link_box a:hover {
-  color: #00bbf0;
+  color: rgb(0 144 0);
 }
 
 .info_section .info_social {
@@ -847,7 +841,7 @@ a:focus {
 }
 
 .info_section .info_social a:hover {
-  color: #00bbf0;
+  color: rgb(0 144 0);
 }
 
 .info_section .info_links {
@@ -874,7 +868,7 @@ a:focus {
 }
 
 .info_section .info_links a:hover {
-  color: #00bbf0;
+  color: rgb(0 144 0);
 }
 
 .info_section form input {
@@ -908,7 +902,7 @@ a:focus {
   text-align: center;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #00bbf0;
+  background-color: rgb(0 144 0);
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -930,7 +924,7 @@ a:focus {
 
 .footer_section p {
   color: #00204a;
-  padding: 25px 0;
+  padding: 1vw 0;
   margin: 0;
 }
 
@@ -942,7 +936,7 @@ a:focus {
   color: #ffffff;
 }
 .contact:hover {
-  color: #00bbf0;
+  color: rgb(0 144 0);
 }
 /*# sourceMappingURL=style.css.map */
 .subnav {
@@ -1021,7 +1015,7 @@ a:focus {
 
 .main_form .send_btn {
   transition: ease-in all 0.5s;
-  background-color: #00bbf0;
+  background-color: rgb(0, 105, 55) !important;
   color: #fff;
   max-width: 363px;
   width: 100%;
@@ -1035,7 +1029,7 @@ a:focus {
 }
 
 .main_form .send_btn:hover {
-  background: #2e3192;
+  background-color: rgb(0 144 0);
   color: #fff;
   transition: ease-in all 0.5s;
 }
@@ -1047,7 +1041,7 @@ a:focus {
 
 .titlepage h2 {
   font-size: 40px;
-  color: #2e3192;
+  color: #004c31;
   line-height: 40px;
   font-weight: bold;
   padding: 0;
@@ -1062,7 +1056,7 @@ a:focus {
   padding-bottom: 60px;
 }
 .blue_light {
-  color: #00bbf0;
+  color: #1c8200;
 }
 /** end contact **/
 .header_top {

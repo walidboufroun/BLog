@@ -73,7 +73,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="{{ route('welcome') }}">
             <span>
-              <img src="images/gnov1.png" alt="" style="width: 30%;">
+              <img src="images/gnov5.png" alt="" style="width: 30%;">
             </span>
           </a>
 
@@ -139,7 +139,8 @@
                       <b>G</b>eneration of in<b>nov</b>ation
                     </h1>
                     <p>
-                      Our Startup Is Dedicated To Revolutionizing Waste Management Using AI And IoT, Creating A Greener And Cleaner Future.                    </p>
+                      Notre startup est dédiée à révolutionner la gestion des déchets en utilisant l'IA et l'IoT, créant ainsi un avenir plus vert et plus propre.
+                    </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Read More
@@ -149,7 +150,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/gnov1.png" alt="" style=" width: 120%; margin: 0px 2vw 5.4vw 0;">
+                    <img src="images/gnov5.png" alt="" style=" width: 100%; margin: 0px 2vw 8.8vw 0">
                   </div>
                 </div>
               </div>
@@ -175,6 +176,11 @@
                 <div class="col-md-6">
                   <div class="img-box">
                   <img src="images/removedbk_poubelle.png" alt="" style="width: 90%; margin-left: 2vw;">
+                  <!-- <video width="555" height="319" controls autoplay>
+                    <source src="gnov.mp4" type="video/mp4">
+                    <source src="gnov.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video> -->
                   </div>
                 </div>
               </div>
@@ -217,7 +223,7 @@
   </div>
 
   <div>
-    <img src="images/sepa2.png" alt="" style="width: 100%;">
+    <img src="images/sepa1.png" alt="" style="width: 100%;">
   </div>
 
   <!-- service section -->
@@ -305,10 +311,10 @@
       <div class="container ">
         <div class="heading_container heading_center">
           <h2>
-            Nos <span>Produits</span> Dans La Gestion Des Déchets
+            Nos <span>Solutions</span> Dans La Gestion Des Déchets
           </h2>
           <p>
-            Les produits disponibles dans notre Startup :
+            Les Solutions disponibles dans notre Startup :
           </p>
         </div>
         <div class="row d-flex justify-content-center">
@@ -394,7 +400,7 @@
       <div class="row">
         <div class="col-md-6 ">
           <div class="img-box">
-            <img src="images/gnovlogo.png" alt="" width="75%">
+            <img src="images/gnovlogo.jpg" alt="" width="62%">
           </div>
         </div>
         <div class="col-md-6">
@@ -421,7 +427,7 @@
 
   <!-- end about section -->
   <div>
-    <img src="images/sepa1.png" alt="" style="width: 100%;">
+    <img src="images/sepa2.png" alt="" style="width: 100%;">
   </div>
   <!-- why section -->
 
@@ -522,9 +528,9 @@
                 <h5>
                   Boufroune Walid
                 </h5>
-                <p>
+                <!-- <p>
                   Marketing Head
-                </p>
+                </p> -->
               </div>
               <div class="social_box">
                 <a href="#">
@@ -554,9 +560,9 @@
                 <h5>
                   Boulsane Zakaria
                 </h5>
-                <p>
+                <!-- <p>
                   Marketing Head
-                </p>
+                </p> -->
               </div>
               <div class="social_box">
                 <a href="#">
@@ -586,9 +592,9 @@
                 <h5>
                   Diguer Imane
                 </h5>
-                <p>
+                <!-- <p>
                   Marketing Head
-                </p>
+                </p> -->
               </div>
               <div class="social_box">
                 <a href="#">
@@ -618,9 +624,9 @@
                 <h5>
                   Zeggane Celia
                 </h5>
-                <p>
+                <!-- <p>
                   Marketing Head
-                </p>
+                </p> -->
               </div>
               <div class="social_box">
                 <a href="#">
@@ -699,7 +705,8 @@
                   <i class="fa fa-quote-left" aria-hidden="true"></i>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                </p>
               </div>
             </div>
           </div>
@@ -829,7 +836,7 @@
                 Nos Services
               </a>
               <a class="" href="{{ route('Product') }}">
-                Nos Produits
+                Nos Solutions
               </a>
               <a class="" href="{{ route('why') }}">
                 Pourquoi nous
@@ -879,6 +886,7 @@
   </script>
   <!-- custom js -->
   <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/js.js"></script>
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>

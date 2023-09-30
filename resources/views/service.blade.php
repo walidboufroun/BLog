@@ -74,7 +74,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="{{ route('welcome') }}">
             <span>
-              <img src="images/gnov3.png" alt="" style="width: 30%;">
+              <img src="images/gnov5.png" alt="" style="width: 30%;">
             </span>
           </a>
 
@@ -236,37 +236,40 @@
               Address
             </h4>
             <div class="contact_link_box">
-              <a href="">
+              <!-- <a href="">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <span>
                   Location
                 </span>
-              </a>
+              </a> -->
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
-                  Call +01 1234567890
+                  +213 558629858
                 </span>
               </a>
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  demo@gmail.com
+                  gnov2023@gmail.com
                 </span>
               </a>
             </div>
           </div>
           <div class="info_social">
-            <a href="">
+            <a href="https://www.facebook.com/gnovstar">
               <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
-            <a href="">
+            <!-- <a href="">
               <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="">
+            </a> -->
+            <a href="https://www.linkedin.com/company/gnov">
               <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="">
+            <a href="https://www.youtube.com/@GNOV-uc9fb">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+            <a href="https://www.instagram.com/gnovstartup/">
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </div>
@@ -274,11 +277,10 @@
         <div class="col-md-6 col-lg-3 info_col">
           <div class="info_detail">
             <h4>
-              Info
+              Vision
             </h4>
             <p>
-              necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
-            </p>
+              Notre vision est de vous offrir une solution pratique qui simplifie la gestion de vos déchets tout en stimulant votre entreprise.             </p>
           </div>
         </div>
         <div class="col-md-6 col-lg-2 mx-auto info_col">
@@ -287,33 +289,35 @@
               Links
             </h4>
             <div class="info_links">
-              <a class="active" href="index.html">
-                Home
+              <a class="active" href="{{ route('welcome') }}">
+                Acceuil
               </a>
-              <a class="" href="about.html">
-                About
+              <a class="" href="{{ route('about') }}">
+                Qui somme nous
               </a>
-              <a class="" href="service.html">
-                Services
+              <a class="" href="{{ route('service') }}">
+                Nos Services
               </a>
-              <a class="" href="why.html">
-                Why Us
+              <a class="" href="{{ route('Product') }}">
+                Nos Produits
               </a>
-              <a class="" href="team.html">
-                Team
+              <a class="" href="{{ route('why') }}">
+                Pourquoi nous
+              </a>
+              <a class="" href="{{ route('team') }}">
+                Notre Team
               </a>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 info_col ">
           <h4>
-            Subscribe
+            Contactez Nous
           </h4>
           <form action="#">
-            <input type="text" placeholder="Enter email" />
-            <button type="submit">
-              Subscribe
-            </button>
+            <a class="contact" href="">
+                Contactez Nous
+            </a>
           </form>
         </div>
       </div>
@@ -327,7 +331,7 @@
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        <a href="https://html.design/">GNOV</a>
       </p>
     </div>
   </section>
@@ -345,6 +349,7 @@
   </script>
   <!-- custom js -->
   <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/js.js"></script>
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
